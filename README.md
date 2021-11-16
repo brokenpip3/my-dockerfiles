@@ -5,8 +5,8 @@ Miscellaneous docker images that I use on a daily basis
 ## Build directives
 
 - User directive
-- Opencontainers (annotations)[https://github.com/opencontainers/image-spec/blob/main/annotations.md#pre-defined-annotation-keys]
-- Use (distroless)[https://github.com/GoogleContainerTools/distroless] images or `FROM scratch` when possible (only apps)
+- Opencontainers [annotations](https://github.com/opencontainers/image-spec/blob/main/annotations.md#pre-defined-annotation-keys)
+- Use [distroless](https://github.com/GoogleContainerTools/distroless) images or `FROM scratch` when possible (only apps)
 - Use expose directive when possible
 - Executable owned by root
 - Entrypoint/command not writable, only executable
