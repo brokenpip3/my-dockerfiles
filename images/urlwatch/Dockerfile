@@ -13,6 +13,7 @@ RUN apk --no-cache add gcc \
       libxslt-dev \
       libc-dev \
       libffi-dev \
+      jq \
     && addgroup -S urlwatch \
     && adduser -S urlwatch -G urlwatch
 
